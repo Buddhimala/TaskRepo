@@ -1,0 +1,70 @@
+[2017-11-30 10:58:49,676]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 10:58:49,674+0530] 
+[2017-11-30 10:58:49,781]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 10:58:49,780+0530] 
+[2017-11-30 10:58:49,839]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 10:58:49,839+0530] 
+[2017-11-30 10:58:50,019]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 10:58:50,018+0530] 
+[2017-11-30 11:02:13,051]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 11:02:13,044+0530] 
+[2017-11-30 11:02:13,109]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 11:02:13,109+0530] 
+[2017-11-30 11:02:13,146]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 11:02:13,146+0530] 
+[2017-11-30 11:02:13,241]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 11:02:13,241+0530] 
+[2017-11-30 11:08:12,830]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 11:08:12,829+0530] 
+[2017-11-30 11:08:13,167]  INFO -  {"performedBy":"admin","action":"updated","typ":"API","info":"{\"provider\":\"admin\",\"name\":\"NawalokaPatientService2\",\"context\":\"\\\/nawaloka2\\\/1.0.0\",\"version\":\"1.0.0\"}"} 
+[2017-11-30 11:08:13,195]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 11:08:13,193+0530] 
+[2017-11-30 11:08:13,266]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 11:08:13,266+0530] 
+[2017-11-30 11:08:13,702]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 11:08:13,701+0530] 
+[2017-11-30 11:08:13,836]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 11:08:13,834+0530] 
+[2017-11-30 11:11:14,063]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 11:11:14,062+0530] 
+[2017-11-30 11:11:14,116]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 11:11:14,115+0530] 
+[2017-11-30 11:12:23,753]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 11:12:23,752+0530] 
+[2017-11-30 11:12:23,926]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 11:12:23,925+0530] 
+[2017-11-30 11:12:42,497]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 11:12:42,497+0530] 
+[2017-11-30 11:12:42,720]  INFO -  {"performedBy":"admin","action":"updated","typ":"API","info":"{\"provider\":\"admin\",\"name\":\"NawalokaPatientService2\",\"context\":\"\\\/nawaloka2\\\/1.0.0\",\"version\":\"1.0.0\"}"} 
+[2017-11-30 11:12:42,779]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 11:12:42,776+0530] 
+[2017-11-30 11:12:42,846]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 11:12:42,846+0530] 
+[2017-11-30 11:12:43,084]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 11:12:43,084+0530] 
+[2017-11-30 11:12:43,170]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 11:12:43,170+0530] 
+[2017-11-30 12:15:50,021]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 12:15:50,020+0530] 
+[2017-11-30 12:15:50,375]  INFO -  {"performedBy":"admin","action":"updated","typ":"API","info":"{\"provider\":\"admin\",\"name\":\"NawalokaPatientService2\",\"context\":\"\\\/nawaloka2\\\/1.0.0\",\"version\":\"1.0.0\"}"} 
+[2017-11-30 12:15:50,401]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 12:15:50,400+0530] 
+[2017-11-30 12:15:50,507]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 12:15:50,506+0530] 
+[2017-11-30 12:15:50,869]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 12:15:50,869+0530] 
+[2017-11-30 12:15:51,010]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 12:15:51,009+0530] 
+[2017-11-30 12:15:57,428]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 12:15:57,428+0530] 
+[2017-11-30 12:15:57,493]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 12:15:57,492+0530] 
+[2017-11-30 12:17:47,212]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 12:17:47,211+0530] 
+[2017-11-30 12:17:47,413]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 12:17:47,412+0530] 
+[2017-11-30 12:18:10,276]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 12:18:10,276+0530] 
+[2017-11-30 12:18:10,438]  INFO -  {"performedBy":"admin","action":"updated","typ":"API","info":"{\"provider\":\"admin\",\"name\":\"NawalokaPatientService2\",\"context\":\"\\\/nawaloka2\\\/1.0.0\",\"version\":\"1.0.0\"}"} 
+[2017-11-30 12:18:10,462]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 12:18:10,462+0530] 
+[2017-11-30 12:18:10,520]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 12:18:10,519+0530] 
+[2017-11-30 12:18:10,772]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 12:18:10,770+0530] 
+[2017-11-30 12:18:10,870]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 12:18:10,870+0530] 
+[2017-11-30 14:36:29,038]  INFO -  {"performedBy":"admin","action":"created","typ":"API","info":"{\"provider\":\"admin\",\"name\":\"SampleAPI\",\"context\":\"\\\/sample\\\/1.0.0\",\"version\":\"1.0.0\"}"} 
+[2017-11-30 14:36:29,646]  INFO -  {"performedBy":"admin","action":"updated","typ":"API","info":"{\"provider\":\"admin\",\"name\":\"SampleAPI\",\"context\":\"\\\/sample\\\/1.0.0\",\"version\":\"1.0.0\"}"} 
+[2017-11-30 14:37:03,835]  INFO -  {"performedBy":"admin","action":"updated","typ":"API","info":"{\"provider\":\"admin\",\"name\":\"SampleAPI\",\"context\":\"\\\/sample\\\/1.0.0\",\"version\":\"1.0.0\"}"} 
+[2017-11-30 14:40:27,035]  INFO -  {"performedBy":"admin","action":"updated","typ":"API","info":"{\"provider\":\"admin\",\"name\":\"SampleAPI\",\"context\":\"\\\/sample\\\/1.0.0\",\"version\":\"1.0.0\"}"} 
+[2017-11-30 14:40:58,170]  INFO -  {"performedBy":"admin","action":"created","typ":"Application","info":"{\"tier\":\"Unlimited\",\"name\":\"Sample\",\"callbackURL\":null}"} 
+[2017-11-30 14:41:06,400]  INFO -  {"performedBy":"admin","action":"created","typ":"Subscription","info":"{\"application_name\":\"Sample\",\"tier\":\"Unlimited\",\"provider\":\"admin\",\"api_name\":\"SampleAPI\",\"application_id\":28}"} 
+[2017-11-30 15:34:49,280]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 15:34:49,280+0530] 
+[2017-11-30 15:34:49,432]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 15:34:49,431+0530] 
+[2017-11-30 15:34:49,509]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 15:34:49,507+0530] 
+[2017-11-30 15:34:50,092]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 15:34:50,088+0530] 
+[2017-11-30 15:36:43,443]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 15:36:43,442+0530] 
+[2017-11-30 15:36:43,487]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 15:36:43,486+0530] 
+[2017-11-30 15:36:43,527]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 15:36:43,527+0530] 
+[2017-11-30 15:36:43,637]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 15:36:43,637+0530] 
+[2017-11-30 15:37:38,635]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 15:37:38,635+0530] 
+[2017-11-30 15:37:38,683]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 15:37:38,683+0530] 
+[2017-11-30 15:37:38,712]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 15:37:38,711+0530] 
+[2017-11-30 15:37:38,785]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 15:37:38,785+0530] 
+[2017-11-30 15:39:46,728]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 15:39:46,728+0530] 
+[2017-11-30 15:39:46,790]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 15:39:46,790+0530] 
+[2017-11-30 15:39:46,822]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 15:39:46,822+0530] 
+[2017-11-30 15:39:46,898]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 15:39:46,898+0530] 
+[2017-11-30 15:40:43,851]  INFO -  {"performedBy":"admin","action":"updated","typ":"API","info":"{\"provider\":\"admin\",\"name\":\"SampleAPI\",\"context\":\"\\\/sample\\\/1.0.0\",\"version\":\"1.0.0\"}"} 
+[2017-11-30 15:41:07,771]  INFO -  {"performedBy":"admin","action":"updated","typ":"API","info":"{\"provider\":\"admin\",\"name\":\"NawalokaPatientService2\",\"context\":\"\\\/nawaloka2\\\/1.0.0\",\"version\":\"1.0.0\"}"} 
+[2017-11-30 15:41:18,206]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 15:41:18,206+0530] 
+[2017-11-30 15:41:18,255]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 15:41:18,255+0530] 
+[2017-11-30 15:42:15,699]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 15:42:15,698+0530] 
+[2017-11-30 15:42:15,772]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-30 15:42:15,771+0530] 
+[2017-11-30 15:42:38,444]  INFO -  {"performedBy":"admin","action":"updated","typ":"API","info":"{\"provider\":\"admin\",\"name\":\"SampleAPI\",\"context\":\"\\\/sample\\\/1.0.0\",\"version\":\"1.0.0\"}"} 
+[2017-11-30 15:42:58,358]  INFO -  {"performedBy":"admin","action":"updated","typ":"API","info":"{\"provider\":\"admin\",\"name\":\"NawalokaPatientService2\",\"context\":\"\\\/nawaloka2\\\/1.0.0\",\"version\":\"1.0.0\"}"} 

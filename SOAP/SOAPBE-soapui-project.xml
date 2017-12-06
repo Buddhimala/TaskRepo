@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="43791b31-ac4a-4289-bcae-61b12f416f11" activeEnvironment="Default" name="SOAPBE" resourceRoot="" soapui-version="5.3.0" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:WsdlInterface" id="af388761-298d-45fb-8178-615224bbf62f" wsaVersion="NONE" name="NawalokaPatientServiceSoap11Binding" type="wsdl" bindingName="{http://service.sample.nawaloka.com}NawalokaPatientServiceSoap11Binding" soapVersion="1_1" anonymous="optional" definition="http://192.168.55.160:9763/services/NawalokaPatientService?wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>https://192.168.55.160:9443/services/NawalokaPatientService.NawalokaPatientServiceHttpsSoap11Endpoint/</con:endpoint></con:endpoints><con:operation id="4654db27-9b65-4945-99c9-cdf6cbd0c9fc" isOneWay="false" action="urn:delete" name="delete" bindingOperationName="delete" type="One-Way" inputName="" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="b0b28cc9-8d6f-4f08-9e4b-155336a34fa4" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://192.168.55.160:9443/services/NawalokaPatientService.NawalokaPatientServiceHttpsSoap11Endpoint/</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://service.sample.nawaloka.com">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ser:delete>
+         <!--Optional:-->
+         <ser:patientId>?</ser:patientId>
+      </ser:delete>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:delete"/></con:call></con:operation><con:operation id="3358062d-8720-4b7a-bf4a-b6981f5a1647" isOneWay="false" action="urn:postRecord" name="postRecord" bindingOperationName="postRecord" type="One-Way" inputName="" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="a8b0f366-bd66-4438-b771-452439a62e23" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://192.168.55.160:9443/services/NawalokaPatientService.NawalokaPatientServiceHttpsSoap11Endpoint/</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://service.sample.nawaloka.com" xmlns:xsd="http://dto.service.sample.nawaloka.com/xsd">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ser:postRecord>
+         <!--Optional:-->
+         <ser:patient>
+            <!--Optional:-->
+            <xsd:insurer>
+               <!--Optional:-->
+               <xsd:insurerEmail>?</xsd:insurerEmail>
+               <!--Optional:-->
+               <xsd:insurerName>?</xsd:insurerName>
+               <!--Optional:-->
+               <xsd:insurerPhone>?</xsd:insurerPhone>
+            </xsd:insurer>
+            <!--Optional:-->
+            <xsd:medical>
+               <!--Optional:-->
+               <xsd:condition>?</xsd:condition>
+               <!--Optional:-->
+               <xsd:treatment>?</xsd:treatment>
+            </xsd:medical>
+            <!--Optional:-->
+            <xsd:parentGuardian>
+               <!--Optional:-->
+               <xsd:guardianEmail>?</xsd:guardianEmail>
+               <!--Optional:-->
+               <xsd:guardianName>?</xsd:guardianName>
+               <!--Optional:-->
+               <xsd:guardianPhone>?</xsd:guardianPhone>
+            </xsd:parentGuardian>
+            <!--Optional:-->
+            <xsd:patientContact>
+               <!--Optional:-->
+               <xsd:address>?</xsd:address>
+               <!--Optional:-->
+               <xsd:email>?</xsd:email>
+               <!--Optional:-->
+               <xsd:phone>?</xsd:phone>
+            </xsd:patientContact>
+            <!--Optional:-->
+            <xsd:patientFullName>?</xsd:patientFullName>
+            <!--Optional:-->
+            <xsd:patientId>?</xsd:patientId>
+            <!--Optional:-->
+            <xsd:physician>
+               <!--Optional:-->
+               <xsd:physicianEmail>?</xsd:physicianEmail>
+               <!--Optional:-->
+               <xsd:physicianName>?</xsd:physicianName>
+               <!--Optional:-->
+               <xsd:physicianPhone>?</xsd:physicianPhone>
+            </xsd:physician>
+         </ser:patient>
+      </ser:postRecord>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:postRecord"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="3a70965d-10de-4ef9-86d4-caf50107dfaa" isOneWay="false" action="urn:putData" name="putData" bindingOperationName="putData" type="One-Way" inputName="" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="5f2104dc-efaf-4b0a-a0e4-bf32fced6c73" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://192.168.55.160:9443/services/NawalokaPatientService.NawalokaPatientServiceHttpsSoap11Endpoint/</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://service.sample.nawaloka.com" xmlns:xsd="http://dto.service.sample.nawaloka.com/xsd">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ser:putData>
+         <!--Optional:-->
+         <ser:patient>
+            <!--Optional:-->
+            <xsd:insurer>
+               <!--Optional:-->
+               <xsd:insurerEmail>?</xsd:insurerEmail>
+               <!--Optional:-->
+               <xsd:insurerName>?</xsd:insurerName>
+               <!--Optional:-->
+               <xsd:insurerPhone>?</xsd:insurerPhone>
+            </xsd:insurer>
+            <!--Optional:-->
+            <xsd:medical>
+               <!--Optional:-->
+               <xsd:condition>?</xsd:condition>
+               <!--Optional:-->
+               <xsd:treatment>?</xsd:treatment>
+            </xsd:medical>
+            <!--Optional:-->
+            <xsd:parentGuardian>
+               <!--Optional:-->
+               <xsd:guardianEmail>?</xsd:guardianEmail>
+               <!--Optional:-->
+               <xsd:guardianName>?</xsd:guardianName>
+               <!--Optional:-->
+               <xsd:guardianPhone>?</xsd:guardianPhone>
+            </xsd:parentGuardian>
+            <!--Optional:-->
+            <xsd:patientContact>
+               <!--Optional:-->
+               <xsd:address>?</xsd:address>
+               <!--Optional:-->
+               <xsd:email>?</xsd:email>
+               <!--Optional:-->
+               <xsd:phone>?</xsd:phone>
+            </xsd:patientContact>
+            <!--Optional:-->
+            <xsd:patientFullName>?</xsd:patientFullName>
+            <!--Optional:-->
+            <xsd:patientId>?</xsd:patientId>
+            <!--Optional:-->
+            <xsd:physician>
+               <!--Optional:-->
+               <xsd:physicianEmail>?</xsd:physicianEmail>
+               <!--Optional:-->
+               <xsd:physicianName>?</xsd:physicianName>
+               <!--Optional:-->
+               <xsd:physicianPhone>?</xsd:physicianPhone>
+            </xsd:physician>
+         </ser:patient>
+      </ser:putData>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:putData"/></con:call></con:operation><con:operation id="2530635b-d9a9-4e2b-b91e-3ddb5a80bcb5" isOneWay="false" action="urn:read" name="read" bindingOperationName="read" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="090145c1-9ea3-477c-81a7-3423c7b499a1" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@wss-time-to-live"/></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://192.168.55.160:9443/services/NawalokaPatientService.NawalokaPatientServiceHttpsSoap11Endpoint/</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://service.sample.nawaloka.com">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ser:read>
+         <!--Optional:-->
+         <ser:patientId>abc@abc.com</ser:patientId>
+      </ser:read>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:username>buddhimala</con:username><con:password>buddhimala123</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:read"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="498ff9c0-30c3-44af-904f-7da50d1194ba" isOneWay="false" action="urn:readRecords" name="readRecords" bindingOperationName="readRecords" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="cce0bdc1-581d-489a-86dd-ab8380040560" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://192.168.55.160:9443/services/NawalokaPatientService.NawalokaPatientServiceHttpsSoap11Endpoint/</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://service.sample.nawaloka.com">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ser:readRecords>
+         <!--Optional:-->
+         <ser:patientId>abc@abc.com</ser:patientId>
+      </ser:readRecords>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:username>buddhimala</con:username><con:password>buddhimala123</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:readRecords"/><con:wsrmConfig version="1.2"/></con:call></con:operation></con:interface><con:interface xsi:type="con:WsdlInterface" id="75ced259-afdd-4f76-bff2-67fa576d9b68" wsaVersion="NONE" name="NawalokaPatientServiceSoap12Binding" type="wsdl" bindingName="{http://service.sample.nawaloka.com}NawalokaPatientServiceSoap12Binding" soapVersion="1_2" anonymous="optional" definition="http://192.168.55.160:9763/services/NawalokaPatientService?wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="http://192.168.55.160:9763/services/NawalokaPatientService?wsdl"><con:part><con:url>http://192.168.55.160:9763/services/NawalokaPatientService?wsdl</con:url><con:content><![CDATA[<wsdl:definitions targetNamespace="http://service.sample.nawaloka.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:ns1="http://org.apache.axis2/xsd" xmlns:ns="http://service.sample.nawaloka.com" xmlns:ax27="http://dto.service.sample.nawaloka.com/xsd" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:ax25="http://service.sample.nawaloka.com/xsd" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/">
+  <wsp:Policy wsu:Id="UTOverTransport" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <sp:HttpsToken RequireClientCertificate="false"/>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256/>
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Lax/>
+              </wsp:Policy>
+            </sp:Layout>
+            <sp:IncludeTimestamp/>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <sp:SignedSupportingTokens xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:UsernameToken sp:IncludeToken="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy/IncludeToken/AlwaysToRecipient"/>
+          </wsp:Policy>
+        </sp:SignedSupportingTokens>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:documentation>NawalokaPatientService</wsdl:documentation>
+  <wsdl:types>
+    <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://dto.service.sample.nawaloka.com/xsd">
+      <xs:complexType name="Patient">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="insurer" nillable="true" type="ax27:Insurer"/>
+          <xs:element minOccurs="0" name="medical" nillable="true" type="ax27:Medical"/>
+          <xs:element minOccurs="0" name="parentGuardian" nillable="true" type="ax27:ParentGuardian"/>
+          <xs:element minOccurs="0" name="patientContact" nillable="true" type="ax27:PatientContact"/>
+          <xs:element minOccurs="0" name="patientFullName" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="patientId" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="physician" nillable="true" type="ax27:Physician"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="Insurer">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="insurerEmail" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="insurerName" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="insurerPhone" nillable="true" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="Medical">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="condition" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="treatment" nillable="true" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ParentGuardian">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="guardianEmail" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="guardianName" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="guardianPhone" nillable="true" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="PatientContact">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="address" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="email" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="phone" nillable="true" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="Physician">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="physicianEmail" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="physicianName" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="physicianPhone" nillable="true" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+    <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://service.sample.nawaloka.com" xmlns:ax28="http://dto.service.sample.nawaloka.com/xsd" xmlns:ax26="http://service.sample.nawaloka.com/xsd">
+      <xs:import namespace="http://service.sample.nawaloka.com/xsd"/>
+      <xs:import namespace="http://dto.service.sample.nawaloka.com/xsd"/>
+      <xs:element name="NawalokaPatientServiceNawalokaException">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="NawalokaException" nillable="true" type="ax25:NawalokaException"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="postRecord">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="patient" nillable="true" type="ax27:Patient"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="readRecords">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="patientId" nillable="true" type="xs:string"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="readRecordsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="ax27:Patient"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="putData">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="patient" nillable="true" type="ax27:Patient"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="delete">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="patientId" nillable="true" type="xs:string"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="read">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="patientId" nillable="true" type="xs:string"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="readResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="ax27:Patient"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://service.sample.nawaloka.com/xsd">
+      <xs:complexType name="NawalokaException">
+        <xs:sequence/>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="deleteRequest">
+    <wsdl:part name="parameters" element="ns:delete"/>
+  </wsdl:message>
+  <wsdl:message name="NawalokaPatientServiceNawalokaException">
+    <wsdl:part name="parameters" element="ns:NawalokaPatientServiceNawalokaException"/>
+  </wsdl:message>
+  <wsdl:message name="postRecordRequest">
+    <wsdl:part name="parameters" element="ns:postRecord"/>
+  </wsdl:message>
+  <wsdl:message name="readRecordsRequest">
+    <wsdl:part name="parameters" element="ns:readRecords"/>
+  </wsdl:message>
+  <wsdl:message name="readRecordsResponse">
+    <wsdl:part name="parameters" element="ns:readRecordsResponse"/>
+  </wsdl:message>
+  <wsdl:message name="readRequest">
+    <wsdl:part name="parameters" element="ns:read"/>
+  </wsdl:message>
+  <wsdl:message name="readResponse">
+    <wsdl:part name="parameters" element="ns:readResponse"/>
+  </wsdl:message>
+  <wsdl:message name="putDataRequest">
+    <wsdl:part name="parameters" element="ns:putData"/>
+  </wsdl:message>
+  <wsdl:portType name="NawalokaPatientServicePortType">
+    <wsdl:operation name="delete">
+      <wsdl:input message="ns:deleteRequest" wsaw:Action="urn:delete"/>
+      <wsdl:fault message="ns:NawalokaPatientServiceNawalokaException" name="NawalokaPatientServiceNawalokaException" wsaw:Action="urn:deleteNawalokaPatientServiceNawalokaException"/>
+    </wsdl:operation>
+    <wsdl:operation name="postRecord">
+      <wsdl:input message="ns:postRecordRequest" wsaw:Action="urn:postRecord"/>
+      <wsdl:fault message="ns:NawalokaPatientServiceNawalokaException" name="NawalokaPatientServiceNawalokaException" wsaw:Action="urn:postRecordNawalokaPatientServiceNawalokaException"/>
+    </wsdl:operation>
+    <wsdl:operation name="readRecords">
+      <wsdl:input message="ns:readRecordsRequest" wsaw:Action="urn:readRecords"/>
+      <wsdl:output message="ns:readRecordsResponse" wsaw:Action="urn:readRecordsResponse"/>
+      <wsdl:fault message="ns:NawalokaPatientServiceNawalokaException" name="NawalokaPatientServiceNawalokaException" wsaw:Action="urn:readRecordsNawalokaPatientServiceNawalokaException"/>
+    </wsdl:operation>
+    <wsdl:operation name="read">
+      <wsdl:input message="ns:readRequest" wsaw:Action="urn:read"/>
+      <wsdl:output message="ns:readResponse" wsaw:Action="urn:readResponse"/>
+      <wsdl:fault message="ns:NawalokaPatientServiceNawalokaException" name="NawalokaPatientServiceNawalokaException" wsaw:Action="urn:readNawalokaPatientServiceNawalokaException"/>
+    </wsdl:operation>
+    <wsdl:operation name="putData">
+      <wsdl:input message="ns:putDataRequest" wsaw:Action="urn:putData"/>
+      <wsdl:fault message="ns:NawalokaPatientServiceNawalokaException" name="NawalokaPatientServiceNawalokaException" wsaw:Action="urn:putDataNawalokaPatientServiceNawalokaException"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="NawalokaPatientServiceSoap11Binding" type="ns:NawalokaPatientServicePortType">
+    <wsp:PolicyReference URI="#UTOverTransport" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy"/>
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+    <wsdl:operation name="delete">
+      <soap:operation soapAction="urn:delete" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:fault name="NawalokaPatientServiceNawalokaException">
+        <soap:fault use="literal" name="NawalokaPatientServiceNawalokaException"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="postRecord">
+      <soap:operation soapAction="urn:postRecord" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:fault name="NawalokaPatientServiceNawalokaException">
+        <soap:fault use="literal" name="NawalokaPatientServiceNawalokaException"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="readRecords">
+      <soap:operation soapAction="urn:readRecords" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="NawalokaPatientServiceNawalokaException">
+        <soap:fault use="literal" name="NawalokaPatientServiceNawalokaException"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="read">
+      <soap:operation soapAction="urn:read" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="NawalokaPatientServiceNawalokaException">
+        <soap:fault use="literal" name="NawalokaPatientServiceNawalokaException"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="putData">
+      <soap:operation soapAction="urn:putData" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:fault name="NawalokaPatientServiceNawalokaException">
+        <soap:fault use="literal" name="NawalokaPatientServiceNawalokaException"/>
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="NawalokaPatientServiceSoap12Binding" type="ns:NawalokaPatientServicePortType">
+    <wsp:PolicyReference URI="#UTOverTransport" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy"/>
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+    <wsdl:operation name="delete">
+      <soap12:operation soapAction="urn:delete" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+      </wsdl:input>
+      <wsdl:fault name="NawalokaPatientServiceNawalokaException">
+        <soap12:fault use="literal" name="NawalokaPatientServiceNawalokaException"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="postRecord">
+      <soap12:operation soapAction="urn:postRecord" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+      </wsdl:input>
+      <wsdl:fault name="NawalokaPatientServiceNawalokaException">
+        <soap12:fault use="literal" name="NawalokaPatientServiceNawalokaException"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="readRecords">
+      <soap12:operation soapAction="urn:readRecords" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="NawalokaPatientServiceNawalokaException">
+        <soap12:fault use="literal" name="NawalokaPatientServiceNawalokaException"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="read">
+      <soap12:operation soapAction="urn:read" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="NawalokaPatientServiceNawalokaException">
+        <soap12:fault use="literal" name="NawalokaPatientServiceNawalokaException"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="putData">
+      <soap12:operation soapAction="urn:putData" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+      </wsdl:input>
+      <wsdl:fault name="NawalokaPatientServiceNawalokaException">
+        <soap12:fault use="literal" name="NawalokaPatientServiceNawalokaException"/>
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="NawalokaPatientServiceHttpBinding" type="ns:NawalokaPatientServicePortType">
+    <http:binding verb="POST"/>
+    <wsdl:operation name="delete">
+      <http:operation location="delete"/>
+      <wsdl:input>
+        <mime:content type="text/xml" part="parameters"/>
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="postRecord">
+      <http:operation location="postRecord"/>
+      <wsdl:input>
+        <mime:content type="text/xml" part="parameters"/>
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="readRecords">
+      <http:operation location="readRecords"/>
+      <wsdl:input>
+        <mime:content type="text/xml" part="parameters"/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content type="text/xml" part="parameters"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="read">
+      <http:operation location="read"/>
+      <wsdl:input>
+        <mime:content type="text/xml" part="parameters"/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content type="text/xml" part="parameters"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="putData">
+      <http:operation location="putData"/>
+      <wsdl:input>
+        <mime:content type="text/xml" part="parameters"/>
+      </wsdl:input>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="NawalokaPatientService">
+    <wsdl:port name="NawalokaPatientServiceHttpsSoap11Endpoint" binding="ns:NawalokaPatientServiceSoap11Binding">
+      <soap:address location="https://192.168.55.160:9443/services/NawalokaPatientService.NawalokaPatientServiceHttpsSoap11Endpoint/"/>
+    </wsdl:port>
+    <wsdl:port name="NawalokaPatientServiceHttpsSoap12Endpoint" binding="ns:NawalokaPatientServiceSoap12Binding">
+      <soap12:address location="https://192.168.55.160:9443/services/NawalokaPatientService.NawalokaPatientServiceHttpsSoap12Endpoint/"/>
+    </wsdl:port>
+    <wsdl:port name="NawalokaPatientServiceHttpsEndpoint" binding="ns:NawalokaPatientServiceHttpBinding">
+      <http:address location="https://192.168.55.160:9443/services/NawalokaPatientService.NawalokaPatientServiceHttpsEndpoint/"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>https://192.168.55.160:9443/services/NawalokaPatientService.NawalokaPatientServiceHttpsSoap12Endpoint/</con:endpoint></con:endpoints><con:operation id="db2a6fad-16bc-441a-abb6-8d5cfc73cd61" isOneWay="false" action="urn:delete" name="delete" bindingOperationName="delete" type="One-Way" inputName="" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="aa1d8583-3f05-4d46-b3db-be9f3db44b09" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://192.168.55.160:9443/services/NawalokaPatientService.NawalokaPatientServiceHttpsSoap12Endpoint/</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:ser="http://service.sample.nawaloka.com">
+   <soap:Header/>
+   <soap:Body>
+      <ser:delete>
+         <!--Optional:-->
+         <ser:patientId>?</ser:patientId>
+      </ser:delete>
+   </soap:Body>
+</soap:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:delete"/></con:call></con:operation><con:operation id="85f7a7bb-6f7b-401e-a346-19adba202557" isOneWay="false" action="urn:postRecord" name="postRecord" bindingOperationName="postRecord" type="One-Way" inputName="" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="43e84ced-2c9c-4e30-84f6-701c1314d28c" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://192.168.55.160:9443/services/NawalokaPatientService.NawalokaPatientServiceHttpsSoap12Endpoint/</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:ser="http://service.sample.nawaloka.com" xmlns:xsd="http://dto.service.sample.nawaloka.com/xsd">
+   <soap:Header/>
+   <soap:Body>
+      <ser:postRecord>
+         <!--Optional:-->
+         <ser:patient>
+            <!--Optional:-->
+            <xsd:insurer>
+               <!--Optional:-->
+               <xsd:insurerEmail>?</xsd:insurerEmail>
+               <!--Optional:-->
+               <xsd:insurerName>?</xsd:insurerName>
+               <!--Optional:-->
+               <xsd:insurerPhone>?</xsd:insurerPhone>
+            </xsd:insurer>
+            <!--Optional:-->
+            <xsd:medical>
+               <!--Optional:-->
+               <xsd:condition>?</xsd:condition>
+               <!--Optional:-->
+               <xsd:treatment>?</xsd:treatment>
+            </xsd:medical>
+            <!--Optional:-->
+            <xsd:parentGuardian>
+               <!--Optional:-->
+               <xsd:guardianEmail>?</xsd:guardianEmail>
+               <!--Optional:-->
+               <xsd:guardianName>?</xsd:guardianName>
+               <!--Optional:-->
+               <xsd:guardianPhone>?</xsd:guardianPhone>
+            </xsd:parentGuardian>
+            <!--Optional:-->
+            <xsd:patientContact>
+               <!--Optional:-->
+               <xsd:address>?</xsd:address>
+               <!--Optional:-->
+               <xsd:email>?</xsd:email>
+               <!--Optional:-->
+               <xsd:phone>?</xsd:phone>
+            </xsd:patientContact>
+            <!--Optional:-->
+            <xsd:patientFullName>?</xsd:patientFullName>
+            <!--Optional:-->
+            <xsd:patientId>?</xsd:patientId>
+            <!--Optional:-->
+            <xsd:physician>
+               <!--Optional:-->
+               <xsd:physicianEmail>?</xsd:physicianEmail>
+               <!--Optional:-->
+               <xsd:physicianName>?</xsd:physicianName>
+               <!--Optional:-->
+               <xsd:physicianPhone>?</xsd:physicianPhone>
+            </xsd:physician>
+         </ser:patient>
+      </ser:postRecord>
+   </soap:Body>
+</soap:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:postRecord"/></con:call></con:operation><con:operation id="1dd53071-1905-4a11-8673-093eae0603e7" isOneWay="false" action="urn:putData" name="putData" bindingOperationName="putData" type="One-Way" inputName="" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="a2fd76df-bb9d-4e89-803f-2f8a503f3690" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://192.168.55.160:9443/services/NawalokaPatientService.NawalokaPatientServiceHttpsSoap12Endpoint/</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:ser="http://service.sample.nawaloka.com" xmlns:xsd="http://dto.service.sample.nawaloka.com/xsd">
+   <soap:Header/>
+   <soap:Body>
+      <ser:putData>
+         <!--Optional:-->
+         <ser:patient>
+            <!--Optional:-->
+            <xsd:insurer>
+               <!--Optional:-->
+               <xsd:insurerEmail>?</xsd:insurerEmail>
+               <!--Optional:-->
+               <xsd:insurerName>?</xsd:insurerName>
+               <!--Optional:-->
+               <xsd:insurerPhone>?</xsd:insurerPhone>
+            </xsd:insurer>
+            <!--Optional:-->
+            <xsd:medical>
+               <!--Optional:-->
+               <xsd:condition>?</xsd:condition>
+               <!--Optional:-->
+               <xsd:treatment>?</xsd:treatment>
+            </xsd:medical>
+            <!--Optional:-->
+            <xsd:parentGuardian>
+               <!--Optional:-->
+               <xsd:guardianEmail>?</xsd:guardianEmail>
+               <!--Optional:-->
+               <xsd:guardianName>?</xsd:guardianName>
+               <!--Optional:-->
+               <xsd:guardianPhone>?</xsd:guardianPhone>
+            </xsd:parentGuardian>
+            <!--Optional:-->
+            <xsd:patientContact>
+               <!--Optional:-->
+               <xsd:address>?</xsd:address>
+               <!--Optional:-->
+               <xsd:email>?</xsd:email>
+               <!--Optional:-->
+               <xsd:phone>?</xsd:phone>
+            </xsd:patientContact>
+            <!--Optional:-->
+            <xsd:patientFullName>?</xsd:patientFullName>
+            <!--Optional:-->
+            <xsd:patientId>?</xsd:patientId>
+            <!--Optional:-->
+            <xsd:physician>
+               <!--Optional:-->
+               <xsd:physicianEmail>?</xsd:physicianEmail>
+               <!--Optional:-->
+               <xsd:physicianName>?</xsd:physicianName>
+               <!--Optional:-->
+               <xsd:physicianPhone>?</xsd:physicianPhone>
+            </xsd:physician>
+         </ser:patient>
+      </ser:putData>
+   </soap:Body>
+</soap:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:putData"/></con:call></con:operation><con:operation id="f075ae9a-5ab3-4fce-b690-fa3e44628a9a" isOneWay="false" action="urn:read" name="read" bindingOperationName="read" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="f8841718-2718-4aed-aafc-1c4eb592522a" name="Request 1" wssPasswordType="PasswordText"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@wss-time-to-live">60</con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://192.168.55.160:9443/services/NawalokaPatientService.NawalokaPatientServiceHttpsSoap12Endpoint/</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:ser="http://service.sample.nawaloka.com">
+   <soap:Header/>
+   <soap:Body>
+      <ser:read>
+         <!--Optional:-->
+         <ser:patientId>abc@abc.com</ser:patientId>
+      </ser:read>
+   </soap:Body>
+</soap:Envelope>]]></con:request><con:credentials><con:username>buddhimala</con:username><con:password>buddhimala123</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:read"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="b9fa8978-609d-4805-90d3-72e2b96352eb" isOneWay="false" action="urn:readRecords" name="readRecords" bindingOperationName="readRecords" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="7af90e65-587b-4fe3-8b9c-1709bdc77e4f" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://192.168.55.160:9443/services/NawalokaPatientService.NawalokaPatientServiceHttpsSoap12Endpoint/</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:ser="http://service.sample.nawaloka.com">
+   <soap:Header/>
+   <soap:Body>
+      <ser:readRecords>
+         <!--Optional:-->
+         <ser:patientId>?</ser:patientId>
+      </ser:readRecords>
+   </soap:Body>
+</soap:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:readRecords"/></con:call></con:operation></con:interface><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>

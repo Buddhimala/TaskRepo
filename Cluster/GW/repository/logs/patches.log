@@ -1,0 +1,28 @@
+[2017-11-30 14:31:35,880]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Checking for patch changes ...
+[2017-11-30 14:31:35,882]  INFO {org.wso2.carbon.server.util.PatchUtils} -  No new patch or service pack detected, server will start without applying patches 
+[2017-11-30 14:31:35,882]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patch verification started
+[2017-11-30 14:31:35,882]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patch verification successfully completed
+[2017-11-30 14:48:39,192]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Checking for patch changes ...
+[2017-11-30 14:48:39,194]  INFO {org.wso2.carbon.server.util.PatchUtils} -  No new patch or service pack detected, server will start without applying patches 
+[2017-11-30 14:48:39,194]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patch verification started
+[2017-11-30 14:48:39,194]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patch verification successfully completed
+[2017-11-30 14:49:55,295]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Checking for patch changes ...
+[2017-11-30 14:49:55,296]  INFO {org.wso2.carbon.server.util.PatchUtils} -  No new patch or service pack detected, server will start without applying patches 
+[2017-11-30 14:49:55,296]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patch verification started
+[2017-11-30 14:49:55,297]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patch verification successfully completed
+[2017-11-30 14:56:02,352]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Checking for patch changes ...
+[2017-11-30 14:56:02,353]  INFO {org.wso2.carbon.server.util.PatchUtils} -  No new patch or service pack detected, server will start without applying patches 
+[2017-11-30 14:56:02,353]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patch verification started
+[2017-11-30 14:56:02,353]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patch verification successfully completed
+[2017-11-30 14:57:28,327]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Checking for patch changes ...
+[2017-11-30 14:57:28,328]  INFO {org.wso2.carbon.server.util.PatchUtils} -  No new patch or service pack detected, server will start without applying patches 
+[2017-11-30 14:57:28,329]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patch verification started
+[2017-11-30 14:57:28,329]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patch verification successfully completed
+[2017-11-30 15:34:11,964]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Checking for patch changes ...
+[2017-11-30 15:34:11,965]  INFO {org.wso2.carbon.server.util.PatchUtils} -  No new patch or service pack detected, server will start without applying patches 
+[2017-11-30 15:34:11,965]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patch verification started
+[2017-11-30 15:34:11,965]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patch verification successfully completed
+[2017-11-30 15:44:49,894]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Checking for patch changes ...
+[2017-11-30 15:44:49,896]  INFO {org.wso2.carbon.server.util.PatchUtils} -  No new patch or service pack detected, server will start without applying patches 
+[2017-11-30 15:44:49,897]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patch verification started
+[2017-11-30 15:44:49,897]  INFO {org.wso2.carbon.server.util.PatchUtils} -  Patch verification successfully completed

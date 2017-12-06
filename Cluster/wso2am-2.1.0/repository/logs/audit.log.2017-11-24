@@ -1,0 +1,18 @@
+[2017-11-24 14:08:01,527]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-24 14:08:01,525+0530] 
+[2017-11-24 14:08:01,888]  INFO -  {"performedBy":"admin","action":"updated","typ":"API","info":"{\"provider\":\"admin\",\"name\":\"NawalokaPatientService2\",\"context\":\"\\\/nawaloka2\\\/1.0.0\",\"version\":\"1.0.0\"}"} 
+[2017-11-24 14:08:01,917]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-24 14:08:01,915+0530] 
+[2017-11-24 14:08:01,992]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-24 14:08:01,990+0530] 
+[2017-11-24 14:08:02,357]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-24 14:08:02,355+0530] 
+[2017-11-24 14:08:02,483]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-24 14:08:02,483+0530] 
+[2017-11-24 14:12:13,690]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-24 14:12:13,688+0530] 
+[2017-11-24 14:12:13,925]  INFO -  {"performedBy":"admin","action":"updated","typ":"API","info":"{\"provider\":\"admin\",\"name\":\"NawalokaPatientService2\",\"context\":\"\\\/nawaloka2\\\/1.0.0\",\"version\":\"1.0.0\"}"} 
+[2017-11-24 14:12:13,965]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-24 14:12:13,964+0530] 
+[2017-11-24 14:12:14,044]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-24 14:12:14,041+0530] 
+[2017-11-24 14:12:14,344]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-24 14:12:14,344+0530] 
+[2017-11-24 14:12:14,508]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-24 14:12:14,508+0530] 
+[2017-11-24 14:14:38,848]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-24 14:14:38,848+0530] 
+[2017-11-24 14:14:39,081]  INFO -  {"performedBy":"admin","action":"updated","typ":"API","info":"{\"provider\":\"admin\",\"name\":\"NawalokaPatientService2\",\"context\":\"\\\/nawaloka2\\\/1.0.0\",\"version\":\"1.0.0\"}"} 
+[2017-11-24 14:14:39,106]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-24 14:14:39,106+0530] 
+[2017-11-24 14:14:39,163]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-24 14:14:39,162+0530] 
+[2017-11-24 14:14:39,432]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-24 14:14:39,432+0530] 
+[2017-11-24 14:14:39,545]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-24 14:14:39,545+0530] 

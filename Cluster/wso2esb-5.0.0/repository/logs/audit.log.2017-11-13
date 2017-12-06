@@ -1,0 +1,17 @@
+[2017-11-13 08:41:18,259]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-13 08:41:18,258+0530] 
+[2017-11-13 09:32:52,310] ERROR -  Illegal access attempt at [2017-11-13 09:32:52,0306] from IP address null while trying to authenticate access to service RestApiAdmin 
+[2017-11-13 09:33:01,423]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-13 09:33:01,421+0530] 
+[2017-11-13 10:23:18,260]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-13 10:23:18,259+0530] 
+[2017-11-13 10:41:27,955] ERROR -  Illegal access attempt at [2017-11-13 10:41:27,0952] from IP address null while trying to authenticate access to service RestApiAdmin 
+[2017-11-13 10:41:38,548]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-13 10:41:38,547+0530] 
+[2017-11-13 12:34:03,144]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-13 12:34:03,144+0530] 
+[2017-11-13 13:04:10,087] ERROR -  Illegal access attempt at [2017-11-13 13:04:10,0086] from IP address null while trying to authenticate access to service RestApiAdmin 
+[2017-11-13 13:08:29,912] ERROR -  Illegal access attempt at [2017-11-13 13:08:29,0911] from IP address null while trying to authenticate access to service RestApiAdmin 
+[2017-11-13 13:08:38,486]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-13 13:08:38,485+0530] 
+[2017-11-13 13:39:41,914] ERROR -  Illegal access attempt at [2017-11-13 13:39:41,0914] from IP address null while trying to authenticate access to service RestApiAdmin 
+[2017-11-13 13:40:14,968]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-13 13:40:14,968+0530] 
+[2017-11-13 14:14:04,793]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-13 14:14:04,792+0530] 
+[2017-11-13 14:20:21,299]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-13 14:20:21,299+0530] 
+[2017-11-13 14:25:04,964]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-13 14:25:04,964+0530] 
+[2017-11-13 14:33:00,919]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-13 14:33:00,918+0530] 
+[2017-11-13 16:46:35,794]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-13 16:46:35,794+0530] 

@@ -1,0 +1,11 @@
+[2017-11-16 00:15:53,840]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-16 00:15:53,839+0530] 
+[2017-11-16 01:16:09,171]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-16 01:16:09,169+0530] 
+[2017-11-16 07:50:21,762]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-16 07:50:21,760+0530] 
+[2017-11-16 09:18:42,364]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-16 09:18:42,364+0530] 
+[2017-11-16 10:22:19,862]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-16 10:22:19,862+0530] 
+[2017-11-16 11:17:39,864]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-16 11:17:39,863+0530] 
+[2017-11-16 13:11:04,623]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-16 13:11:04,622+0530] 
+[2017-11-16 14:18:03,273]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-16 14:18:03,272+0530] 
+[2017-11-16 15:35:55,399]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-16 15:35:55,399+0530] 
+[2017-11-16 16:09:56,821]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-16 16:09:56,820+0530] 
+[2017-11-16 23:02:44,122] ERROR -  Illegal access attempt at [2017-11-16 23:02:44,0122] from IP address null while trying to authenticate access to service StatisticsAdmin 

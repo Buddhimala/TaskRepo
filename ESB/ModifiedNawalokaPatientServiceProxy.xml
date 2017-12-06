@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy xmlns="http://ws.apache.org/ns/synapse"
+       name="ModifiedNawalokaPatientServiceProxy"
+       transports="http https"
+       startOnLoad="true">
+   <description/>
+   <target>
+      <inSequence>
+         <switch source="get-property('Action')">
+            <case regex=".*read">
+               <property name="Authorization"
+                         value="Basic YnVkZGhpbWFsYTpidWRkaGltYWxhMTIz"
+                         scope="transport"/>
+               <send>
+                  <endpoint>
+                     <address uri="https://192.168.55.160:9443/services/NawalokaPatientService"
+                              format="soap11"/>
+                  </endpoint>
+               </send>
+            </case>
+            <case regex=".*readRecords">
+               <property name="Authorization"
+                         value="Basic YnVkZGhpbWFsYTpidWRkaGltYWxhMTIz"
+                         scope="transport"/>
+               <send>
+                  <endpoint>
+                     <address uri="https://192.168.55.160:9443/services/NawalokaPatientService"
+                              format="soap11"/>
+                  </endpoint>
+               </send>
+            </case>
+            <case regex=".*putData">
+               <property name="Authorization"
+                         value="Basic YnVkZGhpbWFsYTpidWRkaGltYWxhMTIz"
+                         scope="transport"/>
+               <property name="OUT_ONLY" value="true" scope="default" type="STRING"/>
+               <property name="FORCE_SC_ACCEPTED" value="true" scope="axis2"/>
+               <send>
+                  <endpoint>
+                     <address uri="https://192.168.55.160:9443/services/NawalokaPatientService"
+                              format="soap11"/>
+                  </endpoint>
+               </send>
+            </case>
+            <case regex=".*postRecord">
+               <property name="Authorization"
+                         value="Basic YnVkZGhpbWFsYTpidWRkaGltYWxhMTIz"
+                         scope="transport"/>
+               <property name="OUT_ONLY" value="true" scope="default" type="STRING"/>
+               <property name="FORCE_SC_ACCEPTED" value="true" scope="axis2"/>
+               <send>
+                  <endpoint>
+                     <address uri="https://192.168.55.160:9443/services/NawalokaPatientService"
+                              format="soap11"/>
+                  </endpoint>
+               </send>
+            </case>
+            <case regex=".*delete">
+               <property name="Authorization"
+                         value="Basic YnVkZGhpbWFsYTpidWRkaGltYWxhMTIz"
+                         scope="transport"/>
+               <property name="OUT_ONLY" value="true" scope="default" type="STRING"/>
+               <property name="FORCE_SC_ACCEPTED" value="true" scope="axis2"/>
+               <send>
+                  <endpoint>
+                     <address uri="https://192.168.55.160:9443/services/NawalokaPatientService"
+                              format="soap11"/>
+                  </endpoint>
+               </send>
+            </case>
+         </switch>
+      </inSequence>
+      <outSequence>
+         <send/>
+      </outSequence>
+   </target>
+   <publishWSDL uri="http://192.168.55.160:9763/services/NawalokaPatientService?wsdl"/>
+</proxy>

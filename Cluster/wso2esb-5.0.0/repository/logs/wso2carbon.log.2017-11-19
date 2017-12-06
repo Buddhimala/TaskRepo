@@ -1,0 +1,4 @@
+TID: [-1] [] [2017-11-19 17:51:11,778] DEBUG {org.apache.synapse.commons.jmx.ThreadingView} -  Thread state summary for PassthroughHttpServerWorker threads - Blocked: 0.0%, Unblocked: 100.0% {org.apache.synapse.commons.jmx.ThreadingView}
+TID: [-1] [] [2017-11-19 17:51:11,791] DEBUG {org.apache.synapse.commons.jmx.ThreadingView} -  Thread state summary for PassthroughHttpServerWorker threads - Blocked: 0.0%, Unblocked: 100.0% {org.apache.synapse.commons.jmx.ThreadingView}
+TID: [-1] [] [2017-11-19 17:52:11,782] DEBUG {org.apache.synapse.commons.jmx.ThreadingView} -  Thread state summary for PassthroughHttpServerWorker threads - Blocked: 0.0%, Unblocked: 100.0% {org.apache.synapse.commons.jmx.ThreadingView}
+TID: [-1] [] [2017-11-19 17:52:11,791] DEBUG {org.apache.synapse.commons.jmx.ThreadingView} -  Thread state summary for PassthroughHttpServerWorker threads - Blocked: 0.0%, Unblocked: 100.0% {org.apache.synapse.commons.jmx.ThreadingView}

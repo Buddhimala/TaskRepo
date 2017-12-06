@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api xmlns="http://ws.apache.org/ns/synapse"
+     name="NawalokaPatientAPI"
+     context="/nawaloka">
+   <resource methods="GET" uri-template="/read/{+patientid}">
+      <inSequence>
+         <property name="Message" expression="json-eval($.patientId)"/>
+         <property name="Authorization"
+                   value="Basic YnVkZGhpbWFsYTpidWRkaGltYWxhMTIz"
+                   scope="transport"/>
+         <payloadFactory media-type="xml">
+            <format>
+               <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                                 xmlns:ser="http://service.sample.nawaloka.com">
+                  <soapenv:Header>
+                     <dummyvalue>12</dummyvalue>
+                  </soapenv:Header>
+                  <soapenv:Body>
+                     <ser:read>
+                        <ser:patientId>$1</ser:patientId>
+                     </ser:read>
+                  </soapenv:Body>
+               </soapenv:Envelope>
+            </format>
+            <args>
+               <arg evaluator="xml" expression="get-property('uri.var.patientid')"/>
+            </args>
+         </payloadFactory>
+         <log level="full"/>
+         <property name="SOAPAction" value="urn:read" scope="transport"/>
+         <property name="messageType" value="text/xml" scope="axis2"/>
+         <property name="ContentType" value="text/xml" scope="axis2"/>
+         <send>
+            <endpoint>
+               <address uri="https://192.168.55.160:9443/services/NawalokaPatientService"
+                        format="soap11"/>
+            </endpoint>
+         </send>
+      </inSequence>
+      <outSequence>
+         <property name="messageType" value="application/json" scope="axis2"/>
+         <send/>
+      </outSequence>
+   </resource>
+</api>

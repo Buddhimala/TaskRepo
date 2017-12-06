@@ -1,0 +1,29 @@
+TID: [-1234] [] [2017-11-22 08:04:00,436]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2017-11-22 08:04:00,436+0530] 
+TID: [-1] [] [2017-11-22 08:12:44,623]  WARN {org.apache.directory.shared.asn1.ber.Asn1Decoder} -  The PDU has been fully decoded but there are still bytes in the buffer. 
+TID: [-1234] [] [2017-11-22 09:10:51,259]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2017-11-22 09:10:51,259+0530] 
+TID: [-1234] [] [2017-11-22 09:10:51,301] ERROR {org.wso2.carbon.apimgt.impl.AMDefaultKeyManagerImpl} -  Invalid OAuth Token : Invalid access token 
+TID: [-1] [] [2017-11-22 09:11:39,064]  INFO {org.wso2.carbon.identity.application.authentication.framework.store.OperationCleanUpService} -  Session Operation Data cleanup task is running successfully for removing expired Operation Data 
+TID: [-1234] [] [2017-11-22 09:17:38,671]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2017-11-22 09:17:38,671+0530] 
+TID: [-1234] [] [2017-11-22 09:21:56,443]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2017-11-22 09:21:56,443+0530] 
+TID: [-1234] [] [2017-11-22 09:29:52,380]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2017-11-22 09:29:52,379+0530] 
+TID: [-1234] [] [2017-11-22 10:01:30,439]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2017-11-22 10:01:30,439+0530] 
+TID: [-1234] [] [2017-11-22 10:08:03,786]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2017-11-22 10:08:03,786+0530] 
+TID: [-1234] [] [2017-11-22 10:08:25,542]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2017-11-22 10:08:25,542+0530] 
+TID: [-1234] [] [2017-11-22 10:08:25,630]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2017-11-22 10:08:25,630+0530] 
+TID: [-1234] [] [2017-11-22 10:09:26,776]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2017-11-22 10:09:26,776+0530] 
+TID: [-1234] [] [2017-11-22 10:10:25,590]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2017-11-22 10:10:25,590+0530] 
+TID: [-1234] [] [2017-11-22 10:12:24,557] ERROR {org.wso2.carbon.apimgt.impl.AMDefaultKeyManagerImpl} -  Invalid OAuth Token : Invalid access token 
+TID: [-1] [] [2017-11-22 10:56:39,046]  INFO {org.wso2.carbon.identity.application.authentication.framework.store.SessionCleanUpService} -  Session Data cleanup task is running successfully for removing expired Data 
+TID: [-1234] [] [2017-11-22 12:40:24,594]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2017-11-22 12:40:24,593+0530] 
+TID: [-1234] [] [2017-11-22 12:41:00,017]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2017-11-22 12:41:00,017+0530] 
+TID: [-1234] [] [2017-11-22 12:41:00,581]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2017-11-22 12:41:00,581+0530] 
+TID: [-1234] [] [2017-11-22 13:25:41,221]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2017-11-22 13:25:41,221+0530] 
+TID: [-1234] [] [2017-11-22 14:32:25,198]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2017-11-22 14:32:25,198+0530] 
+TID: [-1234] [] [2017-11-22 14:32:25,241] ERROR {org.wso2.carbon.apimgt.impl.AMDefaultKeyManagerImpl} -  Invalid OAuth Token : Invalid access token 
+TID: [-1234] [] [2017-11-22 14:34:13,245]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2017-11-22 14:34:13,245+0530] 
+TID: [-1234] [] [2017-11-22 14:34:13,847]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2017-11-22 14:34:13,846+0530] 
+TID: [-1234] [] [2017-11-22 15:24:46,355]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2017-11-22 15:24:46,355+0530] 
+TID: [-1234] [] [2017-11-22 15:40:41,606]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2017-11-22 15:40:41,606+0530] 
+TID: [-1234] [] [2017-11-22 16:25:17,319]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2017-11-22 16:25:17,319+0530] 
+TID: [-1234] [] [2017-11-22 16:25:17,973]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2017-11-22 16:25:17,973+0530] 
+TID: [-1234] [] [2017-11-22 16:55:46,865]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2017-11-22 16:55:46,865+0530] 

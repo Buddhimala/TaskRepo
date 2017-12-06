@@ -1,0 +1,7 @@
+[2017-11-24 13:57:03,200]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-24 13:57:03,199+0530] 
+[2017-11-24 13:57:04,907]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-24 13:57:04,901+0530] 
+[2017-11-24 13:58:42,546]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-24 13:58:42,544+0530] 
+[2017-11-24 14:01:24,263]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-24 14:01:24,263+0530] 
+[2017-11-24 14:08:01,304]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-24 14:08:01,304+0530] 
+[2017-11-24 14:12:13,593]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-24 14:12:13,592+0530] 
+[2017-11-24 14:14:38,761]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-24 14:14:38,760+0530] 

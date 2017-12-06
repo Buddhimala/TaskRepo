@@ -1,0 +1,6 @@
+[2017-11-11 20:02:58,195] ERROR -  Illegal access attempt at [2017-11-11 20:02:58,0194] from IP address null while trying to authenticate access to service RestApiAdmin 
+[2017-11-11 20:03:11,820]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-11 20:03:11,818+0530] 
+[2017-11-11 20:07:09,523]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-11 20:07:09,522+0530] 
+[2017-11-11 20:38:52,356]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-11 20:38:52,355+0530] 
+[2017-11-11 21:52:01,995] ERROR -  Illegal access attempt at [2017-11-11 21:52:01,0994] from IP address null while trying to authenticate access to service RestApiAdmin 
+[2017-11-11 21:52:36,776]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-11 21:52:36,775+0530] 

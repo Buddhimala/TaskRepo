@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy xmlns="http://ws.apache.org/ns/synapse"
+       name="FinalProxyService"
+       transports="http https"
+       startOnLoad="true">
+   <description/>
+   <target>
+      <inSequence>
+         <switch source="$axis2:HTTP_METHOD">
+            <case regex="GET">
+               <class name="org.wso2.sample.JWTRoleReader">
+                  <property name="JWT_JSON_Array" value="literal"/>
+               </class>
+               <property name="Role"
+                         expression="get-property('role_name')"
+                         scope="transport"/>
+               <property name="myPropertyInDefault"
+                         expression="get-property('transport','Role')"
+                         scope="default"/>
+               <log level="custom">
+                  <property name="UserRole" expression="get-property('myPropertyInDefault')"/>
+               </log>
+               <log level="custom">
+                  <property name="User Email Address" expression="get-property('emailaddress')"/>
+               </log>
+               <sequence key="conf:/GETsequence"/>
+            </case>
+            <case regex="DELETE">
+               <sequence key="conf:/DELETEsequence"/>
+            </case>
+            <case regex="POST">
+               <sequence key="conf:/POSTsequence"/>
+            </case>
+            <case regex="PUT">
+               <sequence key="conf:/PUTsequence"/>
+            </case>
+            <default>
+               <log level="custom">
+                  <property name="Message" value="No Matching Resource"/>
+               </log>
+            </default>
+         </switch>
+      </inSequence>
+      <outSequence>
+         <switch source="$axis2:HTTP_SC">
+            <case regex="200">
+               <property name="myPropertyInTransport"
+                         expression="get-property('default', 'myPropertyInDefault')"
+                         scope="transport"/>
+               <switch source="get-property('transport','myPropertyInTransport')">
+                  <case regex="H_Administrator">
+                     <sequence key="conf:/H_AdministratorSeq"/>
+                  </case>
+                  <case regex="H_Physician">
+                     <sequence key="conf:/H_PhysicianSeq"/>
+                  </case>
+                  <case regex="H_Patient">
+                     <sequence key="conf:/H_PatientSeq"/>
+                  </case>
+               </switch>
+            </case>
+            <case regex="202">
+               <payloadFactory media-type="json">
+                  <format>{
+				"Status":"Successfully Completed Operation"
+				}
+			</format>
+                  <args/>
+               </payloadFactory>
+               <send/>
+            </case>
+            <default>
+               <payloadFactory media-type="json">
+                  <format>{
+			"Status":"Error"
+			}
+		</format>
+                  <args/>
+               </payloadFactory>
+               <send/>
+            </default>
+         </switch>
+      </outSequence>
+   </target>
+</proxy>

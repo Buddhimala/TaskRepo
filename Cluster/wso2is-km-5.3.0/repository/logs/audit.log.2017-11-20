@@ -1,0 +1,68 @@
+[2017-11-20 07:59:34,435]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 07:59:34,433+0530] 
+[2017-11-20 07:59:35,504]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 07:59:35,502+0530] 
+[2017-11-20 08:00:04,782]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 08:00:04,781+0530] 
+[2017-11-20 08:05:34,513]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 08:05:34,513+0530] 
+[2017-11-20 08:08:50,138]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 08:08:50,137+0530] 
+[2017-11-20 08:09:50,358]  INFO {AUDIT_LOG}-  Initiator : admin | Action : create | Target : 0 | Data : { admin_Nawalaka2_PRODUCTION } | Result : Success  
+[2017-11-20 08:09:50,394]  INFO {AUDIT_LOG}-  Initiator : admin | Action : update | Target : 6 | Data : { admin_Nawalaka2_PRODUCTION } | Result : Success  
+[2017-11-20 08:09:50,443]  INFO {AUDIT_LOG}-  Initiator : admin | Action : update | Target : 6 | Data : { admin_Nawalaka2_PRODUCTION } | Result : Success  
+[2017-11-20 08:28:42,622]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 08:28:42,622+0530] 
+[2017-11-20 09:20:52,796]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 09:20:52,796+0530] 
+[2017-11-20 09:47:48,455]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 09:47:48,455+0530] 
+[2017-11-20 09:53:44,892]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 09:53:44,892+0530] 
+[2017-11-20 09:54:47,203]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 09:54:47,202+0530] 
+[2017-11-20 09:54:47,520]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 09:54:47,514+0530] 
+[2017-11-20 10:00:48,755]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 10:00:48,754+0530] 
+[2017-11-20 10:01:08,781]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 10:01:08,780+0530] 
+[2017-11-20 10:01:09,144]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 10:01:09,144+0530] 
+[2017-11-20 10:13:46,344]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 10:13:46,343+0530] 
+[2017-11-20 10:14:07,959]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 10:14:07,958+0530] 
+[2017-11-20 10:14:08,395]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 10:14:08,393+0530] 
+[2017-11-20 10:14:51,736]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 10:14:51,736+0530] 
+[2017-11-20 11:00:50,293]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 11:00:50,286+0530] 
+[2017-11-20 11:01:33,293]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 11:01:33,293+0530] 
+[2017-11-20 11:01:50,423]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 11:01:50,422+0530] 
+[2017-11-20 11:01:50,552]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 11:01:50,551+0530] 
+[2017-11-20 11:02:20,976]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 11:02:20,975+0530] 
+[2017-11-20 11:10:43,894]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 11:10:43,893+0530] 
+[2017-11-20 11:12:08,967]  INFO {AUDIT_LOG}-  Initiator : admin | Action : create | Target : 0 | Data : { admin_NonSecuredNawaloka_PRODUCTION } | Result : Success  
+[2017-11-20 11:12:09,001]  INFO {AUDIT_LOG}-  Initiator : admin | Action : update | Target : 7 | Data : { admin_NonSecuredNawaloka_PRODUCTION } | Result : Success  
+[2017-11-20 11:12:09,049]  INFO {AUDIT_LOG}-  Initiator : admin | Action : update | Target : 7 | Data : { admin_NonSecuredNawaloka_PRODUCTION } | Result : Success  
+[2017-11-20 11:32:47,787]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 11:32:47,784+0530] 
+[2017-11-20 11:33:32,625]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 11:33:32,625+0530] 
+[2017-11-20 12:12:13,460]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 12:12:13,460+0530] 
+[2017-11-20 12:15:40,028]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 12:15:40,027+0530] 
+[2017-11-20 12:16:09,671]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 12:16:09,670+0530] 
+[2017-11-20 12:16:09,802]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 12:16:09,802+0530] 
+[2017-11-20 12:41:40,622]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 12:41:40,622+0530] 
+[2017-11-20 12:43:57,051]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 12:43:57,051+0530] 
+[2017-11-20 12:52:05,727]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 12:52:05,727+0530] 
+[2017-11-20 12:53:09,593]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 12:53:09,592+0530] 
+[2017-11-20 12:54:12,563]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 12:54:12,563+0530] 
+[2017-11-20 12:56:57,530]  INFO {AUDIT_LOG}-  Initiator : admin | Action : update | Target : admin_Nawalaka2_PRODUCTION | Data : { null } | Result : Success  
+[2017-11-20 12:58:50,196]  INFO {AUDIT_LOG}-  Initiator : admin | Action : create | Target : 0 | Data : { admin_NawalokaApplication2_PRODUCTION } | Result : Success  
+[2017-11-20 12:58:50,227]  INFO {AUDIT_LOG}-  Initiator : admin | Action : update | Target : 8 | Data : { admin_NawalokaApplication2_PRODUCTION } | Result : Success  
+[2017-11-20 12:58:50,270]  INFO {AUDIT_LOG}-  Initiator : admin | Action : update | Target : 8 | Data : { admin_NawalokaApplication2_PRODUCTION } | Result : Success  
+[2017-11-20 12:59:09,773]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 12:59:09,773+0530] 
+[2017-11-20 13:02:47,949]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 13:02:47,948+0530] 
+[2017-11-20 13:12:42,634]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 13:12:42,633+0530] 
+[2017-11-20 13:14:31,534]  INFO {AUDIT_LOG}-  Initiator : admin | Action : update | Target : admin_NawalokaApplication1_PRODUCTION | Data : { null } | Result : Success  
+[2017-11-20 13:14:39,304]  INFO {AUDIT_LOG}-  Initiator : admin | Action : update | Target : admin_NawalokaApplication2_PRODUCTION | Data : { null } | Result : Success  
+[2017-11-20 13:17:12,302]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 13:17:12,302+0530] 
+[2017-11-20 13:17:47,582]  INFO {AUDIT_LOG}-  Initiator : admin | Action : create | Target : 0 | Data : { admin_NawalokaApplication1_PRODUCTION } | Result : Success  
+[2017-11-20 13:17:47,603]  INFO {AUDIT_LOG}-  Initiator : admin | Action : update | Target : 9 | Data : { admin_NawalokaApplication1_PRODUCTION } | Result : Success  
+[2017-11-20 13:17:47,629]  INFO {AUDIT_LOG}-  Initiator : admin | Action : update | Target : 9 | Data : { admin_NawalokaApplication1_PRODUCTION } | Result : Success  
+[2017-11-20 13:30:14,597]  INFO {AUDIT_LOG}-  Initiator : admin | Action : create | Target : 0 | Data : { admin_NawalokaApplication2_PRODUCTION } | Result : Success  
+[2017-11-20 13:30:14,665]  INFO {AUDIT_LOG}-  Initiator : admin | Action : update | Target : 10 | Data : { admin_NawalokaApplication2_PRODUCTION } | Result : Success  
+[2017-11-20 13:30:14,702]  INFO {AUDIT_LOG}-  Initiator : admin | Action : update | Target : 10 | Data : { admin_NawalokaApplication2_PRODUCTION } | Result : Success  
+[2017-11-20 13:30:52,113]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 13:30:52,113+0530] 
+[2017-11-20 13:50:29,397]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 13:50:29,397+0530] 
+[2017-11-20 14:22:13,561]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 14:22:13,560+0530] 
+[2017-11-20 14:49:45,957]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 14:49:45,954+0530] 
+[2017-11-20 14:50:08,591]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 14:50:08,591+0530] 
+[2017-11-20 14:50:09,155]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 14:50:09,154+0530] 
+[2017-11-20 16:10:53,135]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 16:10:53,135+0530] 
+[2017-11-20 16:12:02,090]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 16:12:02,089+0530] 
+[2017-11-20 16:12:16,368]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 16:12:16,367+0530] 
+[2017-11-20 16:12:16,430]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 16:12:16,429+0530] 
+[2017-11-20 16:13:00,791]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-20 16:13:00,791+0530] 

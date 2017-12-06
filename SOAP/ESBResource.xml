@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="ec0bcfd5-7edc-4694-9834-54e18cbf5b67" activeEnvironment="Default" name="ESBResource" resourceRoot="" soapui-version="5.3.0" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:RestService" id="37ffa0cf-e9f5-49eb-b790-fb1b9bfa1f52" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://172.17.0.1:8244" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>https://172.17.0.1:8244</con:endpoint></con:endpoints><con:resource name="Post" path="/nawaloka/1.0.0/read" id="cbf82f16-42ff-4d8c-b63b-97dd48cab264"><con:settings/><con:parameters><con:parameter><con:name>PatientId</con:name><con:value/><con:style>QUERY</con:style><con:default/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:method name="Post 1" id="b5d39180-a656-4723-8a5e-090acb14bf39" method="GET"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType>application/xml; charset=UTF-8</con:mediaType><con:status>401 404</con:status><con:params/><con:element xmlns:sec="http://wso2.org/apimanager/security">sec:fault</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json; charset=UTF-8</con:mediaType><con:status>200 202</con:status><con:params/><con:element xmlns:read="https://172.17.0.1/nawaloka/1.0.0/read">read:Response</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType>application/json; charset=UTF-8</con:mediaType><con:status>500</con:status><con:params/><con:element xmlns:read="https://172.17.0.1/nawaloka/1.0.0/read">read:Fault</con:element></con:representation><con:request name="Request 1" id="2fc58d71-6aed-401e-8790-89b35de2f537" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://172.17.0.1:8244</con:endpoint><con:request>{
+	"patient": {
+		"insurer": {
+			"insurerEmail": "abc@abc.com",
+			"insurerName": "abc",
+			"insurerPhone": "123"
+		},
+		"medical": {
+			"condition": "true",
+			"treatment": "true"
+		},
+		"parentGuardian": {
+			"guardianEmail": "abc@abc.com",
+			"guardianName": "abc",
+			"guardianPhone": "123"
+		},
+		"patientContact": {
+			"address": "Kiribathgoda",
+			"email": "abc@abc.com",
+			"phone": "123"
+		},
+		"patientFullName": "Sample1",
+		"patientId": "sample1@sample.com",
+		"physician": {
+			"physicianEmail": "123@abc.com",
+			"physicianName": "M.Ranathunga",
+			"physicianPhone": "0123456789"
+		}
+	}
+}</con:request><con:originalUri>https://172.17.0.1/nawaloka/1.0.0/read</con:originalUri><con:credentials><con:selectedAuthProfile>Profile 1</con:selectedAuthProfile><con:authType>OAuth 2.0</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="PatientId" value="sample1@sample.com" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>PatientId</con:entry></con:parameterOrder></con:request></con:method></con:resource></con:interface><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer><con:oAuth2Profile><con:name>Profile 1</con:name><con:accessToken>5bbf09ad-7a72-3c52-99cb-b67f2398ea10</con:accessToken><con:accessTokenPosition>HEADER</con:accessTokenPosition><con:oAuth2Flow>AUTHORIZATION_CODE_GRANT</con:oAuth2Flow><con:refreshAccessTokenMethod>AUTOMATIC</con:refreshAccessTokenMethod><con:accessTokenStatus>UNKNOWN</con:accessTokenStatus><con:accessTokenStartingStatus>ENTERED_MANUALLY</con:accessTokenStartingStatus></con:oAuth2Profile></con:oAuth2ProfileContainer><con:oAuth1ProfileContainer/></con:soapui-project>

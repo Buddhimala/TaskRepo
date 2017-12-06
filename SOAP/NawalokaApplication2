@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="9682362e-e604-442b-bebb-50b93b4bc22f" activeEnvironment="Default" name="NawalokaApplication2" resourceRoot="" soapui-version="5.3.0" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:RestService" id="f2b2e2d9-8afe-48af-9cfc-584c39f597c4" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://172.17.0.1:8244" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>https://172.17.0.1:8244</con:endpoint></con:endpoints><con:resource name="Read" path="/nawaloka2/1.0.0/delete" id="8d328aaa-9f02-4282-8664-89770daa7eb7"><con:settings/><con:parameters><con:parameter><con:name>PatientId</con:name><con:value/><con:style>QUERY</con:style><con:default/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:method name="Read 1" id="032bb0c2-a00d-4ba0-a270-80ace7caa0d6" method="DELETE"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType>application/xml; charset=UTF-8</con:mediaType><con:status>401 404</con:status><con:params/><con:element xmlns:sec="http://wso2.org/apimanager/security">sec:fault</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json; charset=UTF-8</con:mediaType><con:status>200 202</con:status><con:params/><con:element xmlns:read="https://172.17.0.1/nawaloka2/1.0.0/read">read:Response</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType>application/json; charset=UTF-8</con:mediaType><con:status>500</con:status><con:params/><con:element xmlns:read="https://172.17.0.1/nawaloka2/1.0.0/read">read:Fault</con:element></con:representation><con:request name="Request 1" id="11b08f96-5b67-46be-bce9-534a8b477745" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://172.17.0.1:8244</con:endpoint><con:request>{
+	"patient": {
+		"insurer": {
+			"insurerEmail": "abc@abc.com",
+			"insurerName": "abc",
+			"insurerPhone": "123"
+		},
+		"medical": {
+			"condition": "true",
+			"treatment": "true"
+		},
+		"parentGuardian": {
+			"guardianEmail": "abc@abc.com",
+			"guardianName": "abc",
+			"guardianPhone": "123"
+		},
+		"patientContact": {
+			"address": "Kiribathgoda",
+			"email": "abc@abc.com",
+			"phone": "123"
+		},
+		"patientFullName": "Sample1",
+		"patientId": "sample1@sample.com",
+		"physician": {
+			"physicianEmail": "123@abc.com",
+			"physicianName": "Ranathunga",
+			"physicianPhone": "0123456789"
+		}
+	}
+}</con:request><con:originalUri>https://172.17.0.1/nawaloka2/1.0.0/read</con:originalUri><con:credentials><con:selectedAuthProfile>Profile 1</con:selectedAuthProfile><con:authType>OAuth 2.0</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="PatientId" value="sample1@sample.com" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>PatientId</con:entry></con:parameterOrder></con:request></con:method></con:resource></con:interface><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer><con:oAuth2Profile><con:name>Profile 1</con:name><con:accessToken>db16085b-ee9d-3f02-bddb-9c5e9214041f</con:accessToken><con:accessTokenPosition>HEADER</con:accessTokenPosition><con:oAuth2Flow>AUTHORIZATION_CODE_GRANT</con:oAuth2Flow><con:refreshAccessTokenMethod>AUTOMATIC</con:refreshAccessTokenMethod><con:accessTokenStatus>ENTERED_MANUALLY</con:accessTokenStatus><con:accessTokenStartingStatus>ENTERED_MANUALLY</con:accessTokenStartingStatus></con:oAuth2Profile></con:oAuth2ProfileContainer><con:oAuth1ProfileContainer/></con:soapui-project>

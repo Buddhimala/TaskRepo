@@ -1,0 +1,1 @@
+[2017-11-08 11:44:55,187]  INFO {AUDIT_LOG}-  Initiator : wso2.system.user | Action : Add BPS Profile | Data : { "Profile Name" : "embeded_bps","Manager Host URL" : "https://localhost:9443/services","Worker Host URL" : "https://localhost:9443/services","User" : "admin" } | Result :  Success  

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy xmlns="http://ws.apache.org/ns/synapse"
+       name="NawalokaPatientService"
+       transports="http https"
+       startOnLoad="true">
+   <description/>
+   <target>
+      <inSequence>
+         <property name="Authorization"
+                   value="Basic YnVkZGhpbWFsYTpidWRkaGltYWxhMTIz"
+                   scope="transport"/>
+         <send>
+            <endpoint>
+               <address uri="https://192.168.55.160:9443/services/NawalokaPatientService"/>
+            </endpoint>
+         </send>
+      </inSequence>
+      <outSequence>
+         <send/>
+      </outSequence>
+   </target>
+   <publishWSDL uri="http://192.168.55.160:9763/services/NawalokaPatientService?wsdl"/>
+</proxy>

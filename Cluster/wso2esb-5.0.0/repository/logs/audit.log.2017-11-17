@@ -1,0 +1,4 @@
+[2017-11-17 10:04:35,919]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-17 10:04:35,918+0530] 
+[2017-11-17 12:19:05,940]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-17 12:19:05,935+0530] 
+[2017-11-17 14:58:30,858]  INFO -  'admin@carbon.super [-1234]' logged in at [2017-11-17 14:58:30,858+0530] 
+[2017-11-17 15:10:49,247] ERROR -  Illegal access attempt at [2017-11-17 15:10:49,0244] from IP address null while trying to authenticate access to service StatisticsAdmin 

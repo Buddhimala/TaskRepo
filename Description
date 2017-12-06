@@ -1,0 +1,112 @@
+Use case Scenario:
+
+Can be found at the location URL: https://docs.google.com/document/d/1T7VExbRqzrBPz1QY82Ds_IAwhq9otX75NIKzV7TWZKc/edit#
+
+Products used:
+
+wso2 apim-2.1.0 
+	3 instances:Pub/Store/Traffic Manager
+wso2 esb-5.0.0
+wso2is-km-5.3.0 (as key manager for api deployement)
+
+Sample Payload for POST/PUT:
+
+{
+	"patient": {
+		"insurer": {
+			"insurerEmail": "abc@abc.com",
+			"insurerName": "abc",
+			"insurerPhone": "123"
+		},
+		"medical": {
+			"condition": "true",
+			"treatment": "true"
+		},
+		"parentGuardian": {
+			"guardianEmail": "abc@abc.com",
+			"guardianName": "abc",
+			"guardianPhone": "123"
+		},
+		"patientContact": {
+			"address": "Kiribathgoda",
+			"email": "abc@abc.com",
+			"phone": "123"
+		},
+		"patientFullName": "Sample1",
+		"patientId": "sample1@sample.com",
+		"physician": {
+			"physicianEmail": "123@abc.com",
+			"physicianName": "Ranathunga",
+			"physicianPhone": "0123456789"
+		}
+	}
+}
+
+Role based access Token generation
+
+With single scope:
+
+curl -k -d "grant_type=password&username=admin1&password=admin1&scope=AllUser_Key" \
+	    -H "Authorization: Basic dXhON2Nld3hWaGZQZmpJVnlMNnROeXBSRkhvYTpWeUg4YTRMaEl4YnFsV2hrYXdOUXJfdWFINTBh" \
+	     https://172.17.0.1:8244/token
+
+With multiple scope:
+
+curl -k -d "grant_type=password&username=admin1&password=admin1&scope=AllUser_Key Admin_Key" \
+	    -H "Authorization: Basic dXhON2Nld3hWaGZQZmpJVnlMNnROeXBSRkhvYTpWeUg4YTRMaEl4YnFsV2hrYXdOUXJfdWFINTBh" \
+	     https://172.17.0.1:8244/token
+
+Approach:
+
+In order to implement the given scenario, I have followed the given steps at each stage and the synapse configuration for each of the step can be found using the given projects.
+
+1.As the first step, I needed to get an idea on the BE opertions available, the request and response structure etc.So that, I invoked the given secured BE using SOAPUI.There are two different ways of invoking UT secured BE.
+
+	i) We can define the username/password under the Authorization tab and send the request.(Refer to the SOAP project SOAPBE)
+	ii)We can add wsse:Security headers into the request. For this, in the Request Properties pane of SOAPUI project, specify the following four properties.
+		username
+		password
+		WSS-Password Type:PasswordText
+		WSS TimetoLive:2000
+	
+	(Refer to SOAP project SOAPBE2)
+
+2. Then I tried to invoke the secured BE using a proxy service in wso2 ESB. Here I'm passing username/password as HTTP basic authentication header from the esb using the property
+
+<property name="Authorization" scope="transport" value="Basic YnVkZGhpbWFsYTpidWRkaGltYWxhMTIz"/>
+
+(Refer to the proxy service "NawalokaPatientService" for the synapse configuration.SOAPUI project:"NawalokaPatientService")
+
+3.Since it gives an error with the POST method which is defined as IN-ONLY operation in the wsdl, I added the property
+
+<property name="OUT_ONLY" value="true" scope="default" type="STRING"/>
+
+into the proxy service.(Refer the proxy service "NawalokaPatientServiceproxy" for synapse configuration.SOAPUI project:"NawalokaPatientServiceProxy")
+
+4.Since we cannot use that property alone as no response is showing to the customer and on customer side it keeps hanging, the proxy service was modified as per "ModifiedNawalokaPatientServiceProxy".
+Added property: <property name="FORCE_SC_ACCEPTED" scope="axis2" value="true"/>
+
+(Refer to the SOAP project "ModifiedNawalokaPatientServiceProxy".SOAPUI project:"ModifiedNawalokaPatientServiceProxy")
+
+5.Created a proxy service in ESB to implement different operations based on the HTTP METHOD. (REST project:"DirectAccessProxy")
+
+6.Created API and a proxy in ESB and integrate them to implement different operations for CRUD operations.
+
+(Synapse configuration:"ESBResource" REST project:"ESBResource" API:NawalokaPatientService Application:Nawaloka)
+
+7.Implemented securing the proxy service created. (UT policy was added. Policy file can be found in gov/sample_policy.xml)
+
+(Synapse Configuration:"SecuredESBResource" REST project:"SecuredESBResource" API:Nawaloka1 Application:Nawaloka1)
+
+8.Added role based restricted access
+
+(API:NawalokaPatientService1 Application:NawalokaApplication1 SOAP:AddedUserRoles)
+
+9.Edited the proxy service to customize the response based on the role.(Since we cannot do further changes with a secured proxy, for the moment I haven't added the securying code part for the proxy service.)
+
+(Synapse configuration:ModifiedSecuredESBResource API:NawalokaPatientService2 Application:NawalokaApplication2 SOAP:NawalokaApplication2)
+
+10.Modified NawalokaPatientService2 to add IP based throttling.
+
+11.Caching Implementation
+

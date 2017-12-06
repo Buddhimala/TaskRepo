@@ -1,0 +1,70 @@
+[2017-11-17 13:34:50,939]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-17 13:34:50,936+0530] 
+[2017-11-17 13:36:34,136]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-17 13:36:34,135+0530] 
+[2017-11-17 13:36:50,076]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-17 13:36:50,070+0530] 
+[2017-11-17 13:36:50,253]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-17 13:36:50,253+0530] 
+[2017-11-17 13:47:26,285]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-17 13:47:26,285+0530] 
+[2017-11-17 13:50:14,844]  INFO {AUDIT_LOG}-  Initiator : admin@carbon.super | Action : Add Role | Target : Administrator | Data : { Users : [] Permissions : [] } | Result : Success  
+[2017-11-17 13:50:29,568]  INFO {AUDIT_LOG}-  Initiator : admin@carbon.super | Action : Add Role | Target : Physician | Data : { Users : [] Permissions : [] } | Result : Success  
+[2017-11-17 13:50:42,080]  INFO {AUDIT_LOG}-  Initiator : admin@carbon.super | Action : Update Role Name | Target : Physician | Data : { Old : Physician New : H_Physician } | Result : Success  
+[2017-11-17 13:51:02,058]  INFO {AUDIT_LOG}-  Initiator : admin@carbon.super | Action : Add Role | Target : H_Patient | Data : { Users : [] Permissions : [] } | Result : Success  
+[2017-11-17 13:51:27,457]  INFO {AUDIT_LOG}-  Initiator : admin@carbon.super | Action : Update Role Name | Target : Administrator | Data : { Old : Administrator New : H_Administrator } | Result : Success  
+[2017-11-17 13:55:14,211]  INFO {AUDIT_LOG}-  Initiator : admin@carbon.super | Action : Add User | Target : patient1 | Data : { Roles :H_Patient, } | Result : Success  
+[2017-11-17 13:55:41,258]  INFO {AUDIT_LOG}-  Initiator : admin@carbon.super | Action : Add User | Target : physician1 | Data : { Roles :H_Physician, } | Result : Success  
+[2017-11-17 13:56:10,202]  INFO {AUDIT_LOG}-  Initiator : admin@carbon.super | Action : Add User | Target : admin1 | Data : { Roles : } | Result : Success  
+[2017-11-17 13:56:27,542]  INFO {AUDIT_LOG}-  Initiator : admin@carbon.super | Action : Change Password by Administrator | Target : patient1 | Data : {  } | Result : Success  
+[2017-11-17 13:56:45,572]  INFO {AUDIT_LOG}-  Initiator : admin@carbon.super | Action : Change Password by Administrator | Target : physician1 | Data : {  } | Result : Success  
+[2017-11-17 13:59:36,122]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-17 13:59:36,121+0530] 
+[2017-11-17 14:00:07,076]  WARN {AUDIT_LOG}-  Failed Administrator login attempt 'patient1[-1234]' at [2017-11-17 14:00:07,075+0530] 
+[2017-11-17 14:00:14,097]  WARN {AUDIT_LOG}-  Failed Administrator login attempt 'patient1[-1234]' at [2017-11-17 14:00:14,097+0530] 
+[2017-11-17 14:01:05,274]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-17 14:01:05,273+0530] 
+[2017-11-17 14:01:24,758]  WARN {AUDIT_LOG}-  Failed Administrator login attempt 'physician1[-1234]' at [2017-11-17 14:01:24,757+0530] 
+[2017-11-17 14:01:27,014]  WARN {AUDIT_LOG}-  Failed Administrator login attempt 'physician1[-1]' at [2017-11-17 14:01:27,014+0530] 
+[2017-11-17 14:01:27,675]  WARN {AUDIT_LOG}-  Failed Administrator login attempt 'physician1[-1]' at [2017-11-17 14:01:27,675+0530] 
+[2017-11-17 14:01:27,883]  WARN {AUDIT_LOG}-  Failed Administrator login attempt 'physician1[-1]' at [2017-11-17 14:01:27,883+0530] 
+[2017-11-17 14:01:28,016]  WARN {AUDIT_LOG}-  Failed Administrator login attempt 'physician1[-1]' at [2017-11-17 14:01:28,015+0530] 
+[2017-11-17 14:01:43,516]  INFO {AUDIT_LOG}-  Initiator : admin@carbon.super | Action : Delete User | Target : patient1 | Data : {  } | Result : Success  
+[2017-11-17 14:01:50,479]  INFO {AUDIT_LOG}-  Initiator : admin@carbon.super | Action : Delete User | Target : physician1 | Data : {  } | Result : Success  
+[2017-11-17 14:01:56,969]  INFO {AUDIT_LOG}-  Initiator : admin@carbon.super | Action : Delete User | Target : admin1 | Data : {  } | Result : Success  
+[2017-11-17 14:02:21,683]  INFO {AUDIT_LOG}-  Initiator : admin@carbon.super | Action : Add User | Target : admin1 | Data : { Roles :H_Administrator, } | Result : Success  
+[2017-11-17 14:02:48,221]  INFO {AUDIT_LOG}-  Initiator : admin@carbon.super | Action : Add User | Target : physician1 | Data : { Roles :H_Physician, } | Result : Success  
+[2017-11-17 14:03:07,202]  INFO {AUDIT_LOG}-  Initiator : admin@carbon.super | Action : Add User | Target : patient1 | Data : { Roles : } | Result : Success  
+[2017-11-17 14:03:17,168]  INFO {AUDIT_LOG}-  Initiator : admin@carbon.super | Action : Update Roles of User | Target : patient1 | Data : { Roles : [H_Patient] } | Result : Success  
+[2017-11-17 14:04:30,350]  INFO {AUDIT_LOG}-  'physician1@carbon.super [-1234]' logged in at [2017-11-17 14:04:30,349+0530] 
+[2017-11-17 14:05:01,600]  INFO {AUDIT_LOG}-  'patient1@carbon.super [-1234]' logged in at [2017-11-17 14:05:01,600+0530] 
+[2017-11-17 14:05:15,814]  INFO {AUDIT_LOG}-  'admin1@carbon.super [-1234]' logged in at [2017-11-17 14:05:15,813+0530] 
+[2017-11-17 14:15:57,824]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-17 14:15:57,824+0530] 
+[2017-11-17 14:30:08,061]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-17 14:30:08,060+0530] 
+[2017-11-17 14:30:30,761]  INFO {AUDIT_LOG}-  'patient1@carbon.super [-1234]' logged in at [2017-11-17 14:30:30,761+0530] 
+[2017-11-17 14:42:54,260]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-17 14:42:54,259+0530] 
+[2017-11-17 14:43:05,864]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-17 14:43:05,863+0530] 
+[2017-11-17 14:50:12,219]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-17 14:50:12,219+0530] 
+[2017-11-17 14:54:34,499]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-17 14:54:34,499+0530] 
+[2017-11-17 15:02:58,676]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-17 15:02:58,676+0530] 
+[2017-11-17 15:13:23,336]  WARN {AUDIT_LOG}-  Failed Administrator login attempt 'admin1[-1234]' at [2017-11-17 15:13:23,336+0530] 
+[2017-11-17 15:13:25,735]  WARN {AUDIT_LOG}-  Failed Administrator login attempt 'admin1[-1234]' at [2017-11-17 15:13:25,733+0530] 
+[2017-11-17 15:13:26,496]  WARN {AUDIT_LOG}-  Failed Administrator login attempt 'admin1[-1234]' at [2017-11-17 15:13:26,495+0530] 
+[2017-11-17 15:13:26,523]  WARN {AUDIT_LOG}-  Failed Administrator login attempt 'admin1[-1234]' at [2017-11-17 15:13:26,523+0530] 
+[2017-11-17 15:13:45,709]  INFO {AUDIT_LOG}-  'admin1@carbon.super [-1234]' logged in at [2017-11-17 15:13:45,709+0530] 
+[2017-11-17 15:14:03,057]  INFO {AUDIT_LOG}-  'admin1@carbon.super [-1234]' logged in at [2017-11-17 15:14:03,057+0530] 
+[2017-11-17 15:19:41,646]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-17 15:19:41,646+0530] 
+[2017-11-17 15:19:44,446]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-17 15:19:44,445+0530] 
+[2017-11-17 15:20:38,920]  INFO {AUDIT_LOG}-  Initiator : admin | Action : create | Target : 0 | Data : { admin_NawalokaApplication1_PRODUCTION } | Result : Success  
+[2017-11-17 15:20:38,963]  INFO {AUDIT_LOG}-  Initiator : admin | Action : update | Target : 3 | Data : { admin_NawalokaApplication1_PRODUCTION } | Result : Success  
+[2017-11-17 15:20:39,024]  INFO {AUDIT_LOG}-  Initiator : admin | Action : update | Target : 3 | Data : { admin_NawalokaApplication1_PRODUCTION } | Result : Success  
+[2017-11-17 15:20:59,608]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-17 15:20:59,608+0530] 
+[2017-11-17 15:21:39,144]  INFO {AUDIT_LOG}-  'admin1@carbon.super [-1234]' logged in at [2017-11-17 15:21:39,142+0530] 
+[2017-11-17 15:22:12,096]  INFO {AUDIT_LOG}-  Initiator : admin1 | Action : create | Target : 0 | Data : { admin1_NawalokaApplication_PRODUCTION } | Result : Success  
+[2017-11-17 15:22:12,165]  INFO {AUDIT_LOG}-  Initiator : admin1 | Action : update | Target : 4 | Data : { admin1_NawalokaApplication_PRODUCTION } | Result : Success  
+[2017-11-17 15:22:12,193]  INFO {AUDIT_LOG}-  Initiator : admin1 | Action : update | Target : 4 | Data : { admin1_NawalokaApplication_PRODUCTION } | Result : Success  
+[2017-11-17 16:02:44,446]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-17 16:02:44,445+0530] 
+[2017-11-17 16:02:44,955]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-17 16:02:44,955+0530] 
+[2017-11-17 16:03:00,704]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-17 16:03:00,704+0530] 
+[2017-11-17 16:08:37,813]  INFO {AUDIT_LOG}-  Initiator : admin | Action : update | Target : admin_NawalokaApplication1_PRODUCTION | Data : { null } | Result : Success  
+[2017-11-17 16:22:32,921]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-17 16:22:32,921+0530] 
+[2017-11-17 16:30:51,228]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-17 16:30:51,228+0530] 
+[2017-11-17 16:33:39,792]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-17 16:33:39,792+0530] 
+[2017-11-17 16:33:50,025]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-17 16:33:50,025+0530] 
+[2017-11-17 16:35:12,652]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-11-17 16:35:12,652+0530] 
+[2017-11-17 16:37:17,236]  INFO {AUDIT_LOG}-  Initiator : admin | Action : create | Target : 0 | Data : { admin_NawalokaApplication1_PRODUCTION } | Result : Success  
+[2017-11-17 16:37:17,257]  INFO {AUDIT_LOG}-  Initiator : admin | Action : update | Target : 5 | Data : { admin_NawalokaApplication1_PRODUCTION } | Result : Success  
+[2017-11-17 16:37:17,285]  INFO {AUDIT_LOG}-  Initiator : admin | Action : update | Target : 5 | Data : { admin_NawalokaApplication1_PRODUCTION } | Result : Success  

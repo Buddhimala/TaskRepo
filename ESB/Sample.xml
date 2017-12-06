@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy xmlns="http://ws.apache.org/ns/synapse"
+       name="Sample"
+       transports="http https"
+       startOnLoad="true">
+   <description/>
+   <target>
+      <inSequence>
+         <throttle id="A">
+            <onReject>
+               <log level="full"/>
+            </onReject>
+            <onAccept>
+               <send>
+                  <endpoint>
+                     <address uri="http://172.17.0.1:9000/services/SimpleStockQuoteService"
+                              format="soap11"/>
+                  </endpoint>
+               </send>
+            </onAccept>
+         </throttle>
+      </inSequence>
+      <outSequence>
+         <send/>
+      </outSequence>
+   </target>
+   <publishWSDL uri="http://172.17.0.1:9000/services/SimpleStockQuoteService?wsdl"/>
+</proxy>
